@@ -7,3 +7,13 @@ D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProje
 D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
 D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.exe
 D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.pdb
+C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\bin\Debug\FinalProject.exe.config
+C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\bin\Debug\FinalProject.exe
+C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\bin\Debug\FinalProject.pdb
+C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.csproj.AssemblyReference.cache
+C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.Properties.Resources.resources
+C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.csproj.GenerateResource.cache
+C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.exe
+C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.pdb
+C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FUngVien.resources
