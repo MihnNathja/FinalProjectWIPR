@@ -1,6 +1,6 @@
 ﻿namespace FinalProject
 {
-    partial class FUngVien
+    partial class FDoanhNghiep
     {
         /// <summary>
         /// Required designer variable.
@@ -28,16 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnKhaoSat = new System.Windows.Forms.Button();
             this.btnCongViecQuanTam = new System.Windows.Forms.Button();
             this.btnCongViecUngTuyen = new System.Windows.Forms.Button();
             this.btnCV = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lblCv = new System.Windows.Forms.Label();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -52,12 +48,12 @@
             this.groupBox1.Controls.Add(this.btnCV);
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(4, 14);
+            this.groupBox1.Location = new System.Drawing.Point(16, 16);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(310, 569);
-            this.groupBox1.TabIndex = 7;
+            this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Ứng Viên";
+            this.groupBox1.Text = "Doanh Nghiệp";
             // 
             // btnKhaoSat
             // 
@@ -74,7 +70,7 @@
             this.btnCongViecQuanTam.Name = "btnCongViecQuanTam";
             this.btnCongViecQuanTam.Size = new System.Drawing.Size(222, 38);
             this.btnCongViecQuanTam.TabIndex = 3;
-            this.btnCongViecQuanTam.Text = "Công Việc Quan Tâm";
+            this.btnCongViecQuanTam.Text = "Việc Làm Hết Hạn";
             this.btnCongViecQuanTam.UseVisualStyleBackColor = true;
             // 
             // btnCongViecUngTuyen
@@ -83,7 +79,7 @@
             this.btnCongViecUngTuyen.Name = "btnCongViecUngTuyen";
             this.btnCongViecUngTuyen.Size = new System.Drawing.Size(222, 38);
             this.btnCongViecUngTuyen.TabIndex = 2;
-            this.btnCongViecUngTuyen.Text = "Công Việc Ứng Tuyển";
+            this.btnCongViecUngTuyen.Text = "Việc Làm Đang Tuyển";
             this.btnCongViecUngTuyen.UseVisualStyleBackColor = true;
             // 
             // btnCV
@@ -92,7 +88,7 @@
             this.btnCV.Name = "btnCV";
             this.btnCV.Size = new System.Drawing.Size(222, 38);
             this.btnCV.TabIndex = 1;
-            this.btnCV.Text = "CV";
+            this.btnCV.Text = "CV Đã nhận";
             this.btnCV.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
@@ -103,53 +99,29 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // lblCv
-            // 
-            this.lblCv.AutoSize = true;
-            this.lblCv.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCv.Location = new System.Drawing.Point(359, 14);
-            this.lblCv.Name = "lblCv";
-            this.lblCv.Size = new System.Drawing.Size(136, 25);
-            this.lblCv.TabIndex = 8;
-            this.lblCv.Text = "Danh sách Cv";
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
-            // contextMenuStrip2
-            // 
-            this.contextMenuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip2.Name = "contextMenuStrip2";
-            this.contextMenuStrip2.Size = new System.Drawing.Size(61, 4);
-            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(364, 90);
+            this.dataGridView1.Location = new System.Drawing.Point(379, 110);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(857, 293);
-            this.dataGridView1.TabIndex = 9;
+            this.dataGridView1.Size = new System.Drawing.Size(693, 365);
+            this.dataGridView1.TabIndex = 5;
             // 
-            // FUngVien
+            // FDoanhNghiep
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1286, 573);
+            this.ClientSize = new System.Drawing.Size(1152, 597);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.lblCv);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "FUngVien";
-            this.Text = "Form Ứng Viên";
+            this.Name = "FDoanhNghiep";
+            this.Text = "FDoanhNghiep";
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -161,9 +133,6 @@
         private System.Windows.Forms.Button btnCongViecUngTuyen;
         private System.Windows.Forms.Button btnCV;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label lblCv;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
