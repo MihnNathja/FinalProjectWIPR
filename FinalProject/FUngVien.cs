@@ -21,5 +21,11 @@ namespace FinalProject
         {
 
         }
+
+        private void btnCV_Click(object sender, EventArgs e)
+        {
+            FTaoCV fTaoCV = new FTaoCV();
+            fTaoCV.Show();
+        }
     }
 }

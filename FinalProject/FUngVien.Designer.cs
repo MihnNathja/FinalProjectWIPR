@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnCapNhatThongTin = new System.Windows.Forms.Button();
             this.btnKhaoSat = new System.Windows.Forms.Button();
             this.btnCongViecQuanTam = new System.Windows.Forms.Button();
             this.btnCongViecUngTuyen = new System.Windows.Forms.Button();
@@ -38,7 +39,6 @@
             this.lblCv = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.btnCapNhatThongTin = new System.Windows.Forms.Button();
             this.btnTaoCV = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblTimkiem = new System.Windows.Forms.Label();
@@ -61,6 +61,15 @@
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ứng Viên";
+            // 
+            // btnCapNhatThongTin
+            // 
+            this.btnCapNhatThongTin.Location = new System.Drawing.Point(44, 436);
+            this.btnCapNhatThongTin.Name = "btnCapNhatThongTin";
+            this.btnCapNhatThongTin.Size = new System.Drawing.Size(222, 38);
+            this.btnCapNhatThongTin.TabIndex = 5;
+            this.btnCapNhatThongTin.Text = "Cập Nhật Thông Tin";
+            this.btnCapNhatThongTin.UseVisualStyleBackColor = true;
             // 
             // btnKhaoSat
             // 
@@ -97,6 +106,7 @@
             this.btnCV.TabIndex = 1;
             this.btnCV.Text = "CV";
             this.btnCV.UseVisualStyleBackColor = true;
+            this.btnCV.Click += new System.EventHandler(this.btnCV_Click);
             // 
             // pictureBox1
             // 
@@ -127,15 +137,6 @@
             this.contextMenuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip2.Name = "contextMenuStrip2";
             this.contextMenuStrip2.Size = new System.Drawing.Size(61, 4);
-            // 
-            // btnCapNhatThongTin
-            // 
-            this.btnCapNhatThongTin.Location = new System.Drawing.Point(44, 436);
-            this.btnCapNhatThongTin.Name = "btnCapNhatThongTin";
-            this.btnCapNhatThongTin.Size = new System.Drawing.Size(222, 38);
-            this.btnCapNhatThongTin.TabIndex = 5;
-            this.btnCapNhatThongTin.Text = "Cập Nhật Thông Tin";
-            this.btnCapNhatThongTin.UseVisualStyleBackColor = true;
             // 
             // btnTaoCV
             // 
