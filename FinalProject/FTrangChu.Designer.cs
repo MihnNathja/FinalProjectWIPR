@@ -34,6 +34,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.flpCongViec = new System.Windows.Forms.FlowLayoutPanel();
+            this.ucCongViec1 = new FinalProject.ucCongViec();
+            this.flpCongViec.SuspendLayout();
             this.SuspendLayout();
             // 
             // button2
@@ -89,11 +92,27 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Việc Làm";
             // 
+            // flpCongViec
+            // 
+            this.flpCongViec.Controls.Add(this.ucCongViec1);
+            this.flpCongViec.Location = new System.Drawing.Point(15, 114);
+            this.flpCongViec.Name = "flpCongViec";
+            this.flpCongViec.Size = new System.Drawing.Size(1114, 415);
+            this.flpCongViec.TabIndex = 12;
+            // 
+            // ucCongViec1
+            // 
+            this.ucCongViec1.Location = new System.Drawing.Point(3, 3);
+            this.ucCongViec1.Name = "ucCongViec1";
+            this.ucCongViec1.Size = new System.Drawing.Size(939, 180);
+            this.ucCongViec1.TabIndex = 0;
+            // 
             // FTrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1141, 567);
+            this.Controls.Add(this.flpCongViec);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
@@ -102,6 +121,8 @@
             this.Controls.Add(this.label1);
             this.Name = "FTrangChu";
             this.Text = "FTrangChu";
+            this.Load += new System.EventHandler(this.FTrangChu_Load);
+            this.flpCongViec.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,5 +136,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.FlowLayoutPanel flpCongViec;
+        private ucCongViec ucCongViec1;
     }
 }

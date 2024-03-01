@@ -22,3 +22,7 @@ D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProje
 D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FUngVien.resources
 D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FLogin.resources
 D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FSignup.resources
+D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FTaoCV.resources
+D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FThemCongViec.resources
+D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FThongTinCaNhan.resources
+D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.ucCongViec.resources
