@@ -17,3 +17,8 @@ C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\Fina
 C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.exe
 C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.pdb
 C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FUngVien.resources
+D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FDoanhNghiep.resources
+D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FTrangChu.resources
+D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FUngVien.resources
+D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FLogin.resources
+D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FSignup.resources
