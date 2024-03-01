@@ -16,5 +16,13 @@ namespace FinalProject
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
+=======
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+>>>>>>> main
     }
 }
