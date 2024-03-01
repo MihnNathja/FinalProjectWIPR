@@ -66,6 +66,18 @@
     <Compile Include="FSignup.Designer.cs">
       <DependentUpon>FSignup.cs</DependentUpon>
     </Compile>
+    <Compile Include="FTaoCV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTaoCV.Designer.cs">
+      <DependentUpon>FTaoCV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FThongTinCaNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FThongTinCaNhan.Designer.cs">
+      <DependentUpon>FThongTinCaNhan.cs</DependentUpon>
+    </Compile>
     <Compile Include="FTrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FSignup.resx">
       <DependentUpon>FSignup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FThongTinCaNhan.resx">
+      <DependentUpon>FThongTinCaNhan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FTrangChu.resx">
       <DependentUpon>FTrangChu.cs</DependentUpon>

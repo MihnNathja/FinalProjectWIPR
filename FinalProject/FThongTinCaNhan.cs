@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace FinalProject
 {
-    public partial class FTaoCV : Form
+    public partial class FThongTinCaNhan : Form
     {
-        public FTaoCV()
+        public FThongTinCaNhan()
         {
             InitializeComponent();
         }
-<<<<<<< HEAD
-=======
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
->>>>>>> main
     }
 }
