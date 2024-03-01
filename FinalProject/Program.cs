@@ -16,7 +16,7 @@ namespace FinalProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FUngVien());
+            Application.Run(new FLogin());
         }
     }
 }
