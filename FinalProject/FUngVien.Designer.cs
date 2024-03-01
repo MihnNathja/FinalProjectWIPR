@@ -38,14 +38,17 @@
             this.lblCv = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnCapNhatThongTin = new System.Windows.Forms.Button();
+            this.btnTaoCV = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblTimkiem = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnCapNhatThongTin);
             this.groupBox1.Controls.Add(this.btnKhaoSat);
             this.groupBox1.Controls.Add(this.btnCongViecQuanTam);
             this.groupBox1.Controls.Add(this.btnCongViecUngTuyen);
@@ -61,7 +64,7 @@
             // 
             // btnKhaoSat
             // 
-            this.btnKhaoSat.Location = new System.Drawing.Point(44, 442);
+            this.btnKhaoSat.Location = new System.Drawing.Point(44, 493);
             this.btnKhaoSat.Name = "btnKhaoSat";
             this.btnKhaoSat.Size = new System.Drawing.Size(222, 38);
             this.btnKhaoSat.TabIndex = 4;
@@ -125,29 +128,54 @@
             this.contextMenuStrip2.Name = "contextMenuStrip2";
             this.contextMenuStrip2.Size = new System.Drawing.Size(61, 4);
             // 
-            // dataGridView1
+            // btnCapNhatThongTin
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(364, 90);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(857, 293);
-            this.dataGridView1.TabIndex = 9;
+            this.btnCapNhatThongTin.Location = new System.Drawing.Point(44, 436);
+            this.btnCapNhatThongTin.Name = "btnCapNhatThongTin";
+            this.btnCapNhatThongTin.Size = new System.Drawing.Size(222, 38);
+            this.btnCapNhatThongTin.TabIndex = 5;
+            this.btnCapNhatThongTin.Text = "Cập Nhật Thông Tin";
+            this.btnCapNhatThongTin.UseVisualStyleBackColor = true;
+            // 
+            // btnTaoCV
+            // 
+            this.btnTaoCV.Location = new System.Drawing.Point(1123, 60);
+            this.btnTaoCV.Name = "btnTaoCV";
+            this.btnTaoCV.Size = new System.Drawing.Size(139, 38);
+            this.btnTaoCV.TabIndex = 6;
+            this.btnTaoCV.Text = "Tạo CV";
+            this.btnTaoCV.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(944, 68);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(173, 22);
+            this.textBox1.TabIndex = 9;
+            // 
+            // lblTimkiem
+            // 
+            this.lblTimkiem.AutoSize = true;
+            this.lblTimkiem.Location = new System.Drawing.Point(868, 71);
+            this.lblTimkiem.Name = "lblTimkiem";
+            this.lblTimkiem.Size = new System.Drawing.Size(63, 16);
+            this.lblTimkiem.TabIndex = 10;
+            this.lblTimkiem.Text = "Tìm Kiếm";
             // 
             // FUngVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1286, 573);
+            this.Controls.Add(this.lblTimkiem);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnTaoCV);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblCv);
-            this.Controls.Add(this.dataGridView1);
             this.Name = "FUngVien";
             this.Text = "Form Ứng Viên";
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -164,6 +192,9 @@
         private System.Windows.Forms.Label lblCv;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btnCapNhatThongTin;
+        private System.Windows.Forms.Button btnTaoCV;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lblTimkiem;
     }
 }
