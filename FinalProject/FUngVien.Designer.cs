@@ -35,9 +35,9 @@
             this.btnCongViecUngTuyen = new System.Windows.Forms.Button();
             this.btnCV = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.lblTimkiem = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.lblTimkiem = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -53,14 +53,14 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(4, 14);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(310, 569);
+            this.groupBox1.Size = new System.Drawing.Size(259, 569);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ứng Viên";
             // 
             // btnCapNhatThongTin
             // 
-            this.btnCapNhatThongTin.Location = new System.Drawing.Point(44, 436);
+            this.btnCapNhatThongTin.Location = new System.Drawing.Point(19, 419);
             this.btnCapNhatThongTin.Name = "btnCapNhatThongTin";
             this.btnCapNhatThongTin.Size = new System.Drawing.Size(222, 38);
             this.btnCapNhatThongTin.TabIndex = 5;
@@ -69,7 +69,7 @@
             // 
             // btnKhaoSat
             // 
-            this.btnKhaoSat.Location = new System.Drawing.Point(44, 493);
+            this.btnKhaoSat.Location = new System.Drawing.Point(19, 491);
             this.btnKhaoSat.Name = "btnKhaoSat";
             this.btnKhaoSat.Size = new System.Drawing.Size(222, 38);
             this.btnKhaoSat.TabIndex = 4;
@@ -78,7 +78,7 @@
             // 
             // btnCongViecQuanTam
             // 
-            this.btnCongViecQuanTam.Location = new System.Drawing.Point(44, 372);
+            this.btnCongViecQuanTam.Location = new System.Drawing.Point(19, 347);
             this.btnCongViecQuanTam.Name = "btnCongViecQuanTam";
             this.btnCongViecQuanTam.Size = new System.Drawing.Size(222, 38);
             this.btnCongViecQuanTam.TabIndex = 3;
@@ -87,7 +87,7 @@
             // 
             // btnCongViecUngTuyen
             // 
-            this.btnCongViecUngTuyen.Location = new System.Drawing.Point(44, 310);
+            this.btnCongViecUngTuyen.Location = new System.Drawing.Point(19, 275);
             this.btnCongViecUngTuyen.Name = "btnCongViecUngTuyen";
             this.btnCongViecUngTuyen.Size = new System.Drawing.Size(222, 38);
             this.btnCongViecUngTuyen.TabIndex = 2;
@@ -96,7 +96,7 @@
             // 
             // btnCV
             // 
-            this.btnCV.Location = new System.Drawing.Point(44, 251);
+            this.btnCV.Location = new System.Drawing.Point(19, 203);
             this.btnCV.Name = "btnCV";
             this.btnCV.Size = new System.Drawing.Size(222, 38);
             this.btnCV.TabIndex = 1;
@@ -106,18 +106,20 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(73, 46);
+            this.pictureBox1.Location = new System.Drawing.Point(55, 28);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(150, 150);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox1
+            // listView1
             // 
-            this.textBox1.Location = new System.Drawing.Point(944, 14);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(318, 22);
-            this.textBox1.TabIndex = 9;
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(269, 42);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(993, 519);
+            this.listView1.TabIndex = 11;
+            this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // lblTimkiem
             // 
@@ -128,14 +130,12 @@
             this.lblTimkiem.TabIndex = 10;
             this.lblTimkiem.Text = "Tìm Kiếm";
             // 
-            // listView1
+            // textBox1
             // 
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(347, 42);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(915, 519);
-            this.listView1.TabIndex = 11;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.textBox1.Location = new System.Drawing.Point(944, 14);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(318, 22);
+            this.textBox1.TabIndex = 9;
             // 
             // FUngVien
             // 
@@ -164,8 +164,8 @@
         private System.Windows.Forms.Button btnCV;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnCapNhatThongTin;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label lblTimkiem;
         private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.Label lblTimkiem;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
