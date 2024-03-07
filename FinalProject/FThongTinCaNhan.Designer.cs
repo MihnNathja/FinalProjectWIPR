@@ -40,6 +40,10 @@
             this.lblNgaythangnamsinh = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
+            this.lblDiachi = new System.Windows.Forms.Label();
+            this.txtDiaChi = new System.Windows.Forms.TextBox();
+            this.lblQuequan = new System.Windows.Forms.Label();
+            this.txtQueQuan = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbAnhDaiDien)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,7 +66,7 @@
             // lblSodienthoai
             // 
             this.lblSodienthoai.AutoSize = true;
-            this.lblSodienthoai.Location = new System.Drawing.Point(267, 189);
+            this.lblSodienthoai.Location = new System.Drawing.Point(267, 221);
             this.lblSodienthoai.Name = "lblSodienthoai";
             this.lblSodienthoai.Size = new System.Drawing.Size(85, 16);
             this.lblSodienthoai.TabIndex = 4;
@@ -70,7 +74,7 @@
             // 
             // txtSodienthoai
             // 
-            this.txtSodienthoai.Location = new System.Drawing.Point(421, 183);
+            this.txtSodienthoai.Location = new System.Drawing.Point(421, 215);
             this.txtSodienthoai.Name = "txtSodienthoai";
             this.txtSodienthoai.Size = new System.Drawing.Size(200, 22);
             this.txtSodienthoai.TabIndex = 5;
@@ -116,7 +120,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(421, 133);
+            this.dateTimePicker1.Location = new System.Drawing.Point(421, 165);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
             this.dateTimePicker1.TabIndex = 4;
@@ -124,7 +128,7 @@
             // lblNgaythangnamsinh
             // 
             this.lblNgaythangnamsinh.AutoSize = true;
-            this.lblNgaythangnamsinh.Location = new System.Drawing.Point(267, 138);
+            this.lblNgaythangnamsinh.Location = new System.Drawing.Point(267, 170);
             this.lblNgaythangnamsinh.Name = "lblNgaythangnamsinh";
             this.lblNgaythangnamsinh.Size = new System.Drawing.Size(132, 16);
             this.lblNgaythangnamsinh.TabIndex = 11;
@@ -133,7 +137,7 @@
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(267, 236);
+            this.lblEmail.Location = new System.Drawing.Point(267, 268);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(41, 16);
             this.lblEmail.TabIndex = 13;
@@ -141,16 +145,52 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(421, 230);
+            this.txtEmail.Location = new System.Drawing.Point(421, 262);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(200, 22);
             this.txtEmail.TabIndex = 6;
+            // 
+            // lblDiachi
+            // 
+            this.lblDiachi.AutoSize = true;
+            this.lblDiachi.Location = new System.Drawing.Point(267, 314);
+            this.lblDiachi.Name = "lblDiachi";
+            this.lblDiachi.Size = new System.Drawing.Size(47, 16);
+            this.lblDiachi.TabIndex = 15;
+            this.lblDiachi.Text = "Địa chỉ";
+            // 
+            // txtDiaChi
+            // 
+            this.txtDiaChi.Location = new System.Drawing.Point(421, 308);
+            this.txtDiaChi.Name = "txtDiaChi";
+            this.txtDiaChi.Size = new System.Drawing.Size(200, 22);
+            this.txtDiaChi.TabIndex = 14;
+            // 
+            // lblQuequan
+            // 
+            this.lblQuequan.AutoSize = true;
+            this.lblQuequan.Location = new System.Drawing.Point(267, 132);
+            this.lblQuequan.Name = "lblQuequan";
+            this.lblQuequan.Size = new System.Drawing.Size(65, 16);
+            this.lblQuequan.TabIndex = 17;
+            this.lblQuequan.Text = "Quê quán";
+            // 
+            // txtQueQuan
+            // 
+            this.txtQueQuan.Location = new System.Drawing.Point(421, 126);
+            this.txtQueQuan.Name = "txtQueQuan";
+            this.txtQueQuan.Size = new System.Drawing.Size(200, 22);
+            this.txtQueQuan.TabIndex = 16;
             // 
             // FThongTinCaNhan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(703, 310);
+            this.ClientSize = new System.Drawing.Size(703, 358);
+            this.Controls.Add(this.lblQuequan);
+            this.Controls.Add(this.txtQueQuan);
+            this.Controls.Add(this.lblDiachi);
+            this.Controls.Add(this.txtDiaChi);
             this.Controls.Add(this.lblEmail);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.lblNgaythangnamsinh);
@@ -185,5 +225,9 @@
         private System.Windows.Forms.Label lblNgaythangnamsinh;
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.Label lblDiachi;
+        private System.Windows.Forms.TextBox txtDiaChi;
+        private System.Windows.Forms.Label lblQuequan;
+        private System.Windows.Forms.TextBox txtQueQuan;
     }
 }
