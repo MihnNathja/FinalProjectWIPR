@@ -36,6 +36,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.flpCongViec = new System.Windows.Forms.FlowLayoutPanel();
             this.ucCongViec1 = new FinalProject.ucCongViec();
+            this.ucCongViec2 = new FinalProject.ucCongViec();
+            this.ucCongViec3 = new FinalProject.ucCongViec();
             this.flpCongViec.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -95,6 +97,8 @@
             // flpCongViec
             // 
             this.flpCongViec.Controls.Add(this.ucCongViec1);
+            this.flpCongViec.Controls.Add(this.ucCongViec2);
+            this.flpCongViec.Controls.Add(this.ucCongViec3);
             this.flpCongViec.Location = new System.Drawing.Point(15, 114);
             this.flpCongViec.Name = "flpCongViec";
             this.flpCongViec.Size = new System.Drawing.Size(1114, 415);
@@ -104,8 +108,22 @@
             // 
             this.ucCongViec1.Location = new System.Drawing.Point(3, 3);
             this.ucCongViec1.Name = "ucCongViec1";
-            this.ucCongViec1.Size = new System.Drawing.Size(939, 180);
+            this.ucCongViec1.Size = new System.Drawing.Size(939, 125);
             this.ucCongViec1.TabIndex = 0;
+            // 
+            // ucCongViec2
+            // 
+            this.ucCongViec2.Location = new System.Drawing.Point(3, 134);
+            this.ucCongViec2.Name = "ucCongViec2";
+            this.ucCongViec2.Size = new System.Drawing.Size(939, 125);
+            this.ucCongViec2.TabIndex = 1;
+            // 
+            // ucCongViec3
+            // 
+            this.ucCongViec3.Location = new System.Drawing.Point(3, 265);
+            this.ucCongViec3.Name = "ucCongViec3";
+            this.ucCongViec3.Size = new System.Drawing.Size(939, 125);
+            this.ucCongViec3.TabIndex = 2;
             // 
             // FTrangChu
             // 
@@ -138,5 +156,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FlowLayoutPanel flpCongViec;
         private ucCongViec ucCongViec1;
+        private ucCongViec ucCongViec2;
+        private ucCongViec ucCongViec3;
     }
 }
