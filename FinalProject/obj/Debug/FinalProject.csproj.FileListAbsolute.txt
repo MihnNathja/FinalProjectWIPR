@@ -26,3 +26,11 @@ D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProje
 D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FThemCongViec.resources
 D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FThongTinCaNhan.resources
 D:\UNIVERSITY\SOPHOMORE\TERM II\LẬP TRÌNH WINDOWS\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.ucCongViec.resources
+C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FDoanhNghiep.resources
+C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FLogin.resources
+C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FSignup.resources
+C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FTaoCV.resources
+C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FThemCongViec.resources
+C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FThongTinCaNhan.resources
+C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.FTrangChu.resources
+C:\VUONG_LAP_QUE\Nam 2\HK II\Window\FinalProjectWIPR\FinalProject\obj\Debug\FinalProject.ucCongViec.resources
