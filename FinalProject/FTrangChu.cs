@@ -26,5 +26,11 @@ namespace FinalProject
         {
 
         }
+
+        private void pcUserAvatar_Click(object sender, EventArgs e)
+        {
+            FUngVien fUngVien = new FUngVien();
+            fUngVien.ShowDialog();
+        }
     }
 }
